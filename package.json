@@ -1,0 +1,31 @@
+{
+  "name": "nitesh",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "async": "2.1.4",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "1.7.0",
+    "dotenv": "4.0.0",
+    "express-handlebars": "3.0.0",
+    "handlebars": "4.0.6",
+    "jsonwebtoken": "^8.3.0",
+    "keystone": "4.0.0-beta.5",
+    "keystone-email": "1.0.5",
+    "lodash": "^4.13.1",
+    "moment": "2.17.1"
+  },
+  "devDependencies": {
+    "eslint": "3.15.0",
+    "eslint-config-keystone": "3.0.0",
+    "eslint-plugin-react": "^5.1.1"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node keystone.js"
+  },
+  "main": "keystone.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
